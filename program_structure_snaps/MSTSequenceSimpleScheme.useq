@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sequence-diagram version="1.1.4" icons="true" automaticImage="JPEG">  
+  <object id="1" language="java" name="mst" project="MinimumSpanningTree" file="/MinimumSpanningTree/src/mst.java" 
+    binary="false" label="mst (Main)" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="19" y="0"/>    
+    <execution id="2">      
+      <position height="163" width="88" x="5" y="99"/>    
+    </execution>  
+  </object>  
+  <object id="5" language="java" name="InputStreamReader" project="MinimumSpanningTree" 
+    file="/MinimumSpanningTree/src/InputStreamReader.java" binary="false" label="inputStreamReader" type="class" 
+    autoSize="true">    
+    <position height="-1" width="-1" x="272" y="0"/>    
+    <execution id="6">      
+      <position height="625" width="154" x="5" y="234"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="121" width="154" x="97" y="120"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="7" x="171" y="199"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="java.util.Scanner" project="MinimumSpanningTree" 
+    file="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar" binary="true" label="scanner" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="0" x="0" y="136"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="Graph" project="MinimumSpanningTree" file="/MinimumSpanningTree/src/Graph.java" 
+    binary="false" label="graph" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="233" y="0"/>    
+    <execution id="8">      
+      <position height="583" width="88" x="163" y="255"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="455" width="0" x="0" y="229"/>    
+    </execution>    
+    <execution id="18">      
+      <position height="21" width="0" x="0" y="796"/>    
+    </execution>    
+    <execution id="21">      
+      <position height="21" width="7" x="382" y="271"/>    
+    </execution>  
+  </object>  
+  <object id="24" language="java" name="Edge" project="MinimumSpanningTree" file="/MinimumSpanningTree/src/Edge.java" 
+    binary="false" label="e" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="16">      
+      <position height="21" width="0" x="0" y="732"/>    
+    </execution>  
+  </object>  
+  <object id="25" language="java" name="mst" project="MinimumSpanningTree" file="/MinimumSpanningTree/src/mst.java" 
+    binary="false" label="Call Simple scheme from Main" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="23">      
+      <position height="231" width="88" x="522" y="432"/>    
+    </execution>  
+  </object>  
+  <object id="36" language="java" name="PrimMstSimpleScheme" project="MinimumSpanningTree" 
+    file="/MinimumSpanningTree/src/PrimMstSimpleScheme.java" binary="false" label="Prim Simple Scheme Class" 
+    type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="27">      
+      <position height="21" width="0" x="0" y="453"/>    
+    </execution>    
+    <execution id="29">      
+      <position height="21" width="0" x="0" y="495"/>    
+    </execution>    
+    <execution id="33">      
+      <position height="21" width="0" x="0" y="579"/>    
+    </execution>  
+  </object>  
+  <object id="37" language="java" name="java.io.PrintStream" project="MinimumSpanningTree" 
+    file="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar" binary="true" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="31">      
+      <position height="21" width="0" x="0" y="537"/>    
+    </execution>  
+  </object>  
+  <object id="38" language="java" name="java.io.PrintStream" project="MinimumSpanningTree" 
+    file="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar" binary="true" type="class" 
+    autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="35">      
+      <position height="21" width="0" x="0" y="621"/>    
+    </execution>  
+  </object>  
+  <note id="39">    
+    <position height="42" width="122" x="56" y="60"/>    
+    <text><![CDATA[Read file from command line]]>
+    </text>  
+  </note>  
+  <note id="40">    
+    <position height="49" width="121" x="235" y="188"/>    
+    <text><![CDATA[Pass input stream to Graph]]>
+    </text>  
+  </note>  
+  <note id="41">    
+    <position height="44" width="141" x="401" y="357"/>    
+    <text><![CDATA[Pass graph to MST Simple 
+Scheme]]>
+    </text>  
+  </note>  
+  <note id="42">    
+    <position height="55" width="132" x="622" y="349"/>    
+    <text><![CDATA[Display mst to standard output]]>
+    </text>  
+  </note>  
+  <message id="3" operation="InputStreamReader(java.lang.String)">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="7" operation="Graph(InputStreamReader)">    
+    <end type="SOURCE" refId="6"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="Scanner(java.io.File)">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="InputStreamReader(java.lang.String)">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="15" operation="Edge(int,int,int)">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="addEdge(Edge):void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="20" operation="Graph(InputStreamReader)" x="388" y="231">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" operation="mstSimpleScheme(Graph,boolean):void">    
+    <end type="SOURCE" refId="19"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="26" operation="PrimMstSimpleScheme(Graph,int)">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="28" operation="weight():int">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="29"/>  
+  </message>  
+  <message id="30" operation="println(int):void">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="31"/>  
+  </message>  
+  <message id="32" operation="edges():java.lang.Iterable&lt;Edge&gt;">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="33"/>  
+  </message>  
+  <message id="34" operation="println(java.lang.Object):void">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="35"/>  
+  </message>  
+  <text-link id="43">    
+    <link-end type="SOURCE" refId="41"/>    
+    <link-end type="TARGET" refId="40"/>  
+  </text-link>  
+  <text-link id="44">    
+    <link-end type="SOURCE" refId="41"/>    
+    <link-end type="TARGET" refId="42"/>  
+  </text-link>  
+  <text-link id="45">    
+    <link-end type="SOURCE" refId="39"/>    
+    <link-end type="TARGET" refId="40"/>  
+  </text-link>
+</sequence-diagram>
